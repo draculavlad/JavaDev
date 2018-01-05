@@ -43,8 +43,8 @@ tar zxf apache-maven-3.3.3-bin.tar.gz
 * better append the content below following the java config int your system env config
 ```
 export MAVEN_HOME=/opt/apache-maven-3.3.3
-export M2_HOME=/opt/apache-maven-3.3.3
-export M3_HOME=/opt/apache-maven-3.3.3
+export M2_HOME=$MAVEN_HOME
+export M3_HOME=$MAVEN_HOME
 export PATH=$PATH:$MAVEN_HOME/bin
 ```
 
